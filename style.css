@@ -1,0 +1,32 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/tópicos.css);
+@import url(styles/contato.css);
+@import url(styles/rodapé.css);
+@import url(styles/contato.css);
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --branco: #FFFFFF;
+    --dourado: #daa520;
+    --roxinho:#800080;
+    --preto: #000000;
+    --pink: #ff084f;
+    --bege: #f5f5dc;
+    --azul: #4169e1;
+    --fonte-principal:"Poppins";
+    --fonte-secundario: "Josefin Sans";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.carrossel__favoritos-da-semana{
+    font: caption;
+}
+

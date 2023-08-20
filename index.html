@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papelaria Alforria</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho__hamburguer container__imagem" ></span>
+            </label>
+            <ul class="lista-menu" class="container__rotulo">
+                <li class="lista-menu__titulo"> Categorias</li>
+                <li class="lista-menu__item">
+                     <a href="#" class="lista-menu__link"> Novidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Papelaria</a>
+               </li>
+               <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link"> Escrita</a>
+              </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Organização </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Artes </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Outlet </a>
+             </li>
+            </ul>
+            <img src="img/menu.svg" alt="menu" class="container__imagem">
+            <img src="img/imagem passarinho.svg" alt="Logo" class="container__imagem">
+            <h1 class="container__titulo"> Papelaria <b class="container__titulo--negrito"> Alforria</b></h1>
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão"> 
+            <label for="opções-menu">
+                <li class="lista-menu__titulo"> Categorias</li>
+            </label>
+            <li class="lista-menu__titulo"> Favoritos </li>
+            <li class="lista-menu__titulo"> Minhas compras</li>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                     <a href="#" class="lista-menu__link"> Novidades</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link"> Papelaria</a>
+               </li>
+               <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link"> Escrita</a>
+              </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Organização </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Artes </a>
+             </li>
+             <li class="lista-menu__item">
+             <a href="#" class="lista-menu__link"> Outlet </a>
+             </li>
+            </ul>
+
+            <div class="container">
+                <a href="#"> <img src="meus favo alforria.png" alt="Meus favoritos"
+                     class="container__imagem   container__imagem-transparente"></a>
+                <a href="#"  class="container__link">
+                     <img src="Sacolinha de compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+                    <p class="container__texto"> Minha Sacola</p>
+                <a href="#" class="container__link">
+                     <img src="perfil usuário.png" alt="Meu perfil" class="container__imagem"></a>
+                     <p class="container__texto"> Meu Perfil</p>
+            </div>
+    </header>
+
+    <header>
+        <section class="banner">
+         <h2 class="banner__titulo"> Já sabe por onde começar?</h2>
+         <p class="banner__texto"> Encontre em nossa estante o que precisa para o seu desenvolvimento!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima compra?">
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo"> Novos Lançamentos</h2>
+
+            <!-- Slider main container -->
+            <div class="carrossel__container"></div>
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/Caderno tilidisco inteligente.jpg"
+         alt=" Caderno tilidisco The moon da papelaria Alforria"></div>
+      <div class="swiper-slide"><img src="img/Caderno Barbie.png"
+         alt="Caderno Barbie"></div>
+      <div class="swiper-slide"> <img src="img/Mochila escolar feminina.svg" 
+        alt=" Mochila Lilás feminina"></div>
+      <div class="swiper-slide"><img src="img/Caneta esfereográfica.png" 
+        alt="Caneta cis"></div>
+      <div class="swiper-slide"><img src="img/Caneta Fabber.jpg" 
+        alt=" Kit de canetas Fabber Castell"></div>
+      <div class="swiper-slide"><img src="img/estojo tilibra.png" 
+        alt="estojo tilibra"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+<section class="carrossel">
+    <h2 class="carrossel__favoritos-da-semana"> Mais vendidos da semana</h2>
+</section>
+
+ <section>
+    
+    <div class="card">
+        <!--1°linha-->
+        <div class="card__descrição">
+             <!--1°coluna-->
+            <div class="descrição">
+                <h3 class="descrição__titulo"></h3>
+                <h2 class="descrição__titulo-livro"> Kit Stabilo Boss</h2>
+                <p class="descrição__texto"> De R$259 POR R$209,00!!</p>
+                <p class="descrição__texto-s"> Aproveite nossas promoções</p>
+            </div>
+             <!--2° coluna-->
+        <img src="img/stabiloboss.png" alt="descrição__imagem">
+        </div>
+         <!--2° linha-->
+         <div class="card__botões">
+            <!--1° coluna-->
+            <ul class="botões">
+                <li class="btões__items"><img src="meus favo alforria.png" alt="Favoritar livro"></li>
+                <li class="botões__items"> <img src="Sacolinha de compras.svg" alt="Adicionar no carrinho de compras"></li>
+            </ul>
+            <!--2° coluna-->
+            <a href="#" class="botões__ancora"> Saiba mais</a>
+         </div>
+    </div>
+</div>
+
+
+<section class="carrossel">
+    <h2 class="carrossel__osfavoritos"> Canetas </h2>
+     <!-- Slider main container -->
+    <div class="carrossel__container">
+<div class="swiper">
+<!-- Additional required wrapper -->
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<div class="swiper-wrapper">
+  <!-- Slides -->
+  <div class="swiper-slide"><img src="img/canetafabber (1).png"
+     alt=" Caneta Fabber da papelaria Alforria"></div>
+  <div class="swiper-slide"><img src="img/canetanewpen.png"
+     alt="Caderno Barbie"></div>
+  <div class="swiper-slide"> <img src="img/canetaesfereográfoca.png" 
+    alt=" Mochila Lilás feminina"></div>
+  <div class="swiper-slide"><img src="img/canetaesffabber.png" 
+    alt="Caneta cis"></div>
+  <div class="swiper-slide"><img src="img/canetaestrilux.png" 
+    alt=" Kit de canetas Fabber Castell"></div>
+  <div class="swiper-slide"><img src="img/canetaesffabbercastell.png" 
+    alt="estojo tilibra"></div>
+</div>
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+
+</section>
+
+<section class="carrossel">
+    <h2 class="carrossel__osfavoritos"> Cadernos </h2>
+     <!-- Slider main container -->
+    <div class="carrossel__container">
+<div class="swiper">
+<!-- Additional required wrapper -->
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<div class="swiper-wrapper">
+  <!-- Slides -->
+  <div class="swiper-slide"><img src="img/caderno1mattilibra.png"
+     alt=" Caneta Fabber da papelaria Alforria"></div>
+  <div class="swiper-slide"><img src="img/caderno smart mini darc.png"
+     alt="Caderno Barbie"></div>
+  <div class="swiper-slide"> <img src="img/fichário Cicero.png" 
+    alt=" Mochila Lilás feminina"></div>
+  <div class="swiper-slide"><img src="img/cadernotilidiscocolegial.png" 
+    alt="Caneta cis"></div>
+  <div class="swiper-slide"><img src="img/cadernouniversitário.png" 
+    alt=" Kit de canetas Fabber Castell"></div>
+  <div class="swiper-slide"><img src="img/cadernoneon.png" 
+    alt="estojo tilibra"></div>
+</div>
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+
+</section>
+
+<section class="carrossel">
+    <h2 class="carrossel__osfavoritos"> Marca Textos </h2>
+     <!-- Slider main container -->
+    <div class="carrossel__container">
+<div class="swiper">
+<!-- Additional required wrapper -->
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<div class="swiper-wrapper">
+  <!-- Slides -->
+  <div class="swiper-slide"><img src="img/marca texto tons pastel (1).png"
+     alt=" Caneta Fabber da papelaria Alforria"></div>
+  <div class="swiper-slide"><img src="img/marca texto tons pastel (2).png"
+     alt="Caderno Barbie"></div>
+  <div class="swiper-slide"> <img src="img/marca texto staedtler.png" 
+    alt=" Mochila Lilás feminina"></div>
+  <div class="swiper-slide"><img src="img/marca texto cislumini (1).png" 
+    alt="Caneta cis"></div>
+  <div class="swiper-slide"><img src="img/marca textostabilo.png" 
+    alt=" Kit de canetas Fabber Castell"></div>
+  <div class="swiper-slide"><img src="img/marca textominihappy.png" 
+    alt="estojo tilibra"></div>
+</div>
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
+
+<!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+
+</section>
+
+
+<section class="carrossel">
+        <h2 class="carrossel__osfavoritos"> OS FAVORITOS ESTÃO AQUI</h2>
+         <!-- Slider main container -->
+        <div class="carrossel__container">
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/caneta pentel.png"
+         alt=" Caneta Pentel da papelaria Alforria"></div>
+      <div class="swiper-slide"><img src="img/POSTI-T.png"
+         alt="Caderno Barbie"></div>
+      <div class="swiper-slide"> <img src="img/Mochila escolar feminina.svg" 
+        alt=" Mochila Lilás feminina"></div>
+      <div class="swiper-slide"><img src="img/fichário criativo.png" 
+        alt="Caneta cis"></div>
+      <div class="swiper-slide"><img src="img/painel de pintura.png" 
+        alt=" Kit de canetas Fabber Castell"></div>
+      <div class="swiper-slide"><img src="img/lápis profissional.png" 
+        alt="estojo tilibra"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+</section>
+
+<section class="tópicos">
+    <h2 class="tópicos__título"> TÓPICOS MAIS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Android</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Marketing digital</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Agile</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Startups</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> HTML e CSS</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Pyton</a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> OO </a>
+     </li>
+     <li class="tópicos__item">
+        <a href="#" class="tópicos__link"> Java</a>
+     </li>
+    </ul>
+</section>
+ 
+<section class="contato">
+    <div class="contato__descrição">
+     <h2 class="contato__titulo"> FIQUE POR DENTRO DAS NOVIDADES!</h2>
+     <p class="contato__texto"> Novidades, promoções, cumpom de desconto e outros</p>
+     </div>
+     <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+</section>
+
+<hr/>
+
+<footer class="rodapé">
+    <h2 class="rodapé__titulo"> Papelaria Alforria</h2>
+    <ul class="listarodapé">
+        <li class="Lista-rodapé__link"> Ajuda</li>
+        <li class="lista-rodapé__item">
+          <h2> Formas de pagamento</h2>
+          <h2> Entregas</h2>
+          <h2> Trocas e Devoluções</h2>
+          <h2> Entre em contato</h2>
+        </li>
+    </ul>
+
+
+    <ul class="lista-rodapé">
+        <li class="Lista-rodapé__link"> Fale com a gente
+           
+         <a href="#" class="lista-rodapé__link">
+              <img src="img/faxalforria4.png" alt="fax alforria"> (44)99746-2344</a>
+          <h2> Formas de pagamento</h2>
+          <h2> Entregas</h2>
+          <h2> Trocas e Devoluções</h2>
+          <h2> Entre em contato</h2>
+        </li>
+    </ul>
+
+</footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: { 
+            el: '.swiper-pagination',
+            type: 'bullets',
+        }
+     });
+    </script>
+</body>
+</html>
+
